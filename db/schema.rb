@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2023_12_15_152148) do
 
   create_table "lists", force: :cascade do |t|
     t.string "title"
-    t.string "bo"
+    t.string "body"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
